@@ -2215,6 +2215,7 @@ textarea.w-select {
   justify-content: center;
   align-items: center;
   display: flex;
+  margin-top: 30px;
 }
 
 .navbar-logo-left-container {
@@ -2259,6 +2260,10 @@ textarea.w-select {
   align-items: center;
   margin-bottom: 0;
   display: flex;
+}
+
+#user_heading{
+  margin-top: 25px;
 }
 
 .nav-link {
@@ -2412,7 +2417,7 @@ textarea.w-select {
   border-bottom: 1px solid #e4ebf3;
   flex-direction: row;
   justify-content: space-around;
-  padding: 80px 0;
+  padding: 40px 0;
   display: flex;
   position: relative;
 }
