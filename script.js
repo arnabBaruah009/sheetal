@@ -10520,7 +10520,7 @@ Webflow.require("ix2").init({
               config: {
                 delay: 0,
                 easing: "",
-                duration: 3000,
+                duration: 12000,
                 target: {
                   useEventTarget: true,
                   id: "6519a8a0c9eeec6fbaf99cfe|9fd91004-21bb-e496-4066-8f2347f1cee7",
@@ -10541,7 +10541,7 @@ Webflow.require("ix2").init({
               config: {
                 delay: 0,
                 easing: "",
-                duration: 6000,
+                duration: 12000,
                 target: {
                   useEventTarget: true,
                   id: "6519a8a0c9eeec6fbaf99cfe|9fd91004-21bb-e496-4066-8f2347f1cee7",
