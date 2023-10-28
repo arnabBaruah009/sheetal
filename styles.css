@@ -243,7 +243,10 @@ th {
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  font-family: "Font Awesome 6 Free";
+  content: "\f0c9";
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .w-icon-arrow-down:before,
@@ -772,27 +775,26 @@ textarea.w-select {
   height: 20px;
 }
 
-.w-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.w-container:before,
-.w-container:after {
-  content: " ";
-  grid-area: 1 / 1 / 2 / 2;
-  display: table;
-}
-
-.w-container:after {
-  clear: both;
-}
-
-.w-container .w-row {
-  margin-left: -10px;
-  margin-right: -10px;
-}
+/* .w-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .w-container:before, .w-container:after {
+    content: " ";
+    grid-area: 1 / 1 / 2 / 2;
+    display: table;
+  }
+  
+  .w-container:after {
+    clear: both;
+  }
+  
+  .w-container .w-row {
+    margin-left: -10px;
+    margin-right: -10px;
+  } */
 
 .w-row:before,
 .w-row:after {
@@ -2050,6 +2052,10 @@ textarea.w-select {
   left: auto;
 }
 
+.navbar-margin{
+  margin-top: 20px;
+}
+
 .w-nav-button {
   float: right;
   cursor: pointer;
@@ -2812,6 +2818,7 @@ textarea.w-select {
 .image-7 {
   width: 72px;
   height: 75.35px;
+  max-width: 100%;
   margin-left: -17px;
 }
 
@@ -2829,6 +2836,10 @@ textarea.w-select {
 .nav_list_text {
   color: #000;
   cursor: pointer;
+  font-family: Mukta, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.59px;
   text-decoration: none;
 }
 
@@ -3194,6 +3205,61 @@ textarea.w-select {
   width: 84%;
   justify-content: space-between;
   display: flex;
+}
+
+.navbar {
+  width: 100vw;
+  background-color: #fff;
+  border: 1px solid #ff0202;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-2 {
+  width: 100%;
+  border: 1px solid #000;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+}
+
+.image-12 {
+  width: 72px;
+  height: 75.35px;
+  aspect-ratio: auto;
+  margin-left: -11px;
+}
+
+.nav-link-2 {
+  font-family: Mukta, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.59px;
+}
+
+.navbar-2 {
+  background-color: #fff;
+}
+
+.container-3 {
+  width: 80vw;
+  justify-content: space-between;
+  display: flex;
+}
+
+.navbar-3 {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link-3 {
+  font-family: Mukta, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.59px;
 }
 
 @media screen and (max-width: 991px) {
@@ -3567,6 +3633,25 @@ textarea.w-select {
 
   .div-block-14 {
     justify-content: center;
+  }
+
+  .container-3 {
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .nav-link-3 {
+    background-color: #fff5fc;
+  }
+
+  .menu-button-2 {
+    color: #90243f;
+    background-color: #fff;
+  }
+
+  .menu-button-2.w--open {
+    color: #90243f;
+    background-color: #fff5fc;
   }
 }
 
