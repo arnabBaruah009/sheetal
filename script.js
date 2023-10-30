@@ -1623,6 +1623,9 @@ __p+='`),
             !!r.webkitFullscreenElement;
           e(f).attr("style", E ? "display: none !important;" : "");
         }
+        function d() {
+          return;
+        }
         function v() {
           var E = i.children(o),
             _ = E.length && E.get(0) === f,
