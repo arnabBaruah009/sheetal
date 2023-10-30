@@ -3028,6 +3028,7 @@ textarea.w-select {
   font-family: Mukta, sans-serif;
   font-size: 16px;
   line-height: 26.59px;
+  line-break: auto;
 }
 
 .bullet {
