@@ -1956,7 +1956,6 @@ textarea.w-select {
 
 .w-nav {
   z-index: 1000;
-  background: #ddd;
   position: relative;
 }
 
@@ -2895,7 +2894,7 @@ textarea.w-select {
   display: flex;
 }
 
-.circle-div{
+.circle-div {
   visibility: hidden;
   position: absolute;
 }
@@ -3610,11 +3609,15 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .project_section {
+    margin-bottom: 2em;
+  }
+
   .list_data_section {
     margin-top: 20px;
   }
 
-  .circle-div{
+  .circle-div {
     visibility: visible;
     margin-top: 2em;
     position: relative;
@@ -3645,7 +3648,7 @@ textarea.w-select {
     margin-top: 2em;
   }
 
-  .hide{
+  .hide {
     visibility: hidden;
     position: absolute;
   }
@@ -3662,7 +3665,7 @@ textarea.w-select {
   }
 
   .list_data_container > div:nth-child(2n) {
-    background-color: #FFF5FC;
+    background-color: #fff5fc;
   }
 
   .list_item_text {
@@ -3675,7 +3678,7 @@ textarea.w-select {
     line-height: 23.27px;
   }
 
-  .div-block-9{
+  .div-block-9 {
     padding-left: 3em;
   }
 
