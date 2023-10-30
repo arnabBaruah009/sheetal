@@ -880,6 +880,10 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .heading-8 {
+    font-size: 10px;
+  }
+  
   .w-container {
     max-width: 728px;
   }

@@ -2943,6 +2943,7 @@ textarea.w-select {
   position: relative;
   top: 53.5px;
   left: 53.5px;
+  cursor: pointer;
 }
 
 .list_data_section {

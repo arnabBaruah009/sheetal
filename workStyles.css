@@ -2697,12 +2697,12 @@ textarea.w-select {
 }
 
 .project_div.right_project_div {
-  align-items: flex-end;
+  align-items: left;
 }
 
 .project_div.middle_project_div {
   border-style: none;
-  align-items: center;
+  align-items: left;
 }
 
 .project_img {
@@ -3162,6 +3162,25 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 991px) {
+  .text-block-2,
+  .heading-4 {
+    font-size: 10px;
+    line-height: 16.62px;
+  }
+
+  .contact_img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .footer_section {
+    height: 88.27px;
+    margin-top: 57px;
+  }
+
+  .heading-8 {
+    font-size: 10px;
+  }
 
   .work_project_text {
     font-size: 12px;
@@ -3322,6 +3341,16 @@ textarea.w-select {
 }
 
 @media screen and (max-width: 479px) {
+  .footer_container {
+    flex-flow: column wrap;
+    align-items: flex-start;
+  }
+
+  .footer_section {
+    height: auto;
+    margin-top: 0px;
+  }
+
   .project_div.right_project_div {
     align-items: left;
   }
