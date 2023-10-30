@@ -243,7 +243,10 @@ th {
 }
 
 .w-icon-nav-menu:before {
-  content: "î˜‚";
+  font-family: "Font Awesome 6 Free";
+  content: "\f0c9";
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .w-icon-arrow-down:before,
@@ -3245,6 +3248,8 @@ textarea.w-select {
 
 .navbar-3 {
   background-color: #fff;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-link-3 {
@@ -3252,6 +3257,10 @@ textarea.w-select {
   font-size: 16px;
   font-weight: 700;
   line-height: 26.59px;
+}
+
+.navbar-margin {
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 991px) {
